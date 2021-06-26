@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* home start */
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    box-sizing: content-box;
+    animation: slider 30s infinite linear;
+  }
+  @keyframes slider{
+      0%{
+          background-color: orange;
+              }
+              25%{
+          background-color: indigo;
+              }
+              50%{
+          background-color: indianred;
+              }
+              75%{
+          background-color: hotpink;
+              }
+              100%{
+                background-color: greenyellow;
+              }
+  }
+  /* home end */
