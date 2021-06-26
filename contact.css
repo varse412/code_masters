@@ -119,7 +119,7 @@ section::after{
     pointer-events: none;
 }
 .container{
-sition: relative;
+position: relative;
     z-index: 1000;
     width: 100%;
     max-width: 900px;
@@ -230,7 +230,7 @@ sition: relative;
 .container .row .col .inputBox textarea:valid ~ .line{
     height: 100%;
 }
-/* input[type="submit"] */
+
 .container .row .col  #contact-submit{
     border: none;
     padding: 10px 40px;
