@@ -6,11 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vcare</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar_style.css">
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Online Services</a></li>
+            <li><a href="#">Door Step Services</a></li>
+            <div id="marker"></div>
+        </ul>
+      </nav>
     <!-- Home starts -->
   <div  id="container">
   </div>
    <!-- Home ends -->
+   <!-- navbar script -->
+   <script>
+    const marker = document.querySelector('#marker');
+    const item = document.querySelectorAll('ul li a');
+
+    function Indicator(e){
+      marker.style.left = e.offsetLeft+'px';
+      marker.style.width = e.offsetWidth+'px';
+    }
+
+    item.forEach((link) => {
+      link.addEventListener('mousemove', (e)=>{
+        Indicator(e.target);
+      })
+    });
+  </script>
 </body>
 </html>
