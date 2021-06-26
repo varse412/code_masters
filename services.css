@@ -4,6 +4,18 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+section #services-head{
+
+    position: absolute;
+    top: 0px;
+    font-size: 5rem;
+    font-size: 3.5rem;
+    letter-spacing: 14px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
 section{
     width: 100vw;
     min-height: 100vh;
@@ -18,7 +30,6 @@ section{
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    border: 2px solid red;
   }
 
   .swiper-slide {
