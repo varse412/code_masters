@@ -187,6 +187,94 @@ body{
     color: white;
     font-size: 1.5rem;
 }
+
+@media (max-width: 1200px){
+  .wrapper{
+    left: 16%;
+  }
+
+  #head-para{
+    left: 17rem;
+  }
+
+  #btn1 a{
+    left: 31rem;
+  }
+
+@media (max-width: 1000px){
+  .wrapper{
+    left: 14%;
+  }
+
+  #head-para{
+    left: 15rem;
+  }
+
+  #btn1 a{
+    left: 29rem;
+  }
+}
+
+@media (max-width: 900px){
+  .wrapper{
+    left: 11%;
+  }
+
+  #head-para{
+    left: 7rem;
+  }
+
+  #btn1 a{
+    left: 24rem;
+  }
+}
+
+@media (max-width: 800px){
+  .wrapper{
+    left: 7%;
+  }
+
+  .wrapper .static-txt{
+    font-size: 3rem;
+  }
+
+  .dynamic-txts li{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px){
+  .wrapper{
+    left: 4%;
+  }
+
+  .wrapper .static-txt{
+    font-size: 2rem;
+  }
+
+  .dynamic-txts li{
+    font-size: 2rem;
+  }
+
+  #head-para{
+    left: 3rem;
+    font-size: 1rem;
+  }
+
+  #btn1 a{
+    left: 17rem;
+  }
+}
+
+@media (max-width: 700px){
+  .dynamic-txts li span {
+    top: 4.5rem;
+  }
+
+  .dynamic-txts li span::after{
+    height: 147%;
+  }
+}
   /* typing animation end */
   /* footer starts */
   .container{
@@ -436,5 +524,5 @@ ul{
 
    }
 }
- 
+}
   /* team section ends */

@@ -96,3 +96,79 @@ ul li:nth-child(5):hover ~ #marker::before{
     0 0 45px #df2fff,
     0 0 60px #df2fff;
 }
+
+@media (max-width: 1550px){
+    .navbar{
+        left: -30%;
+    }
+}
+@media (max-width: 1200px){
+    .navbar{
+        left: -41%;
+    }
+}
+@media (max-width: 1000px){
+    .navbar{
+        left: -50%;
+    }
+    .navbar ul li a{
+        padding: 19px 11px;
+        font-size: 0.8em;
+        height: 59px;
+    }
+}
+@media (max-width: 800px){
+    .navbar{
+        left: -65%;
+    }
+    .navbar ul li a{
+        padding: 21px 10px;
+        font-size: 0.7em;
+        height: 55px;
+    }
+}
+@media (max-width: 700px){
+    .navbar{
+        left: -90%;
+    }
+    .navbar ul li a{
+        padding: 19px 10px;
+        font-size: 0.7em
+    }
+}
+@media (max-width: 600px){
+    .navbar{
+        left: -100%;
+    }
+    .navbar ul li a{
+        padding: 19px 7px;
+        font-size: 0.5em
+    }
+}
+@media (max-width: 500px){
+    .navbar{
+        left: -135%;
+    }
+    .navbar ul li a{
+        padding: 19px 7px;
+        font-size: 0.5em
+    }
+}
+@media (max-width: 450px){
+    .navbar{
+        left: -160%;
+    }
+    .navbar ul li a{
+        padding: 19px 7px;
+        font-size: 0.5em
+    }
+}
+@media (max-width: 400px){
+    .navbar{
+        left: -180%;
+    }
+    .navbar ul li a{
+        padding: 19px 7px;
+        font-size: 0.5em
+    }
+}
