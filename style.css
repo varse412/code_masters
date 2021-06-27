@@ -103,9 +103,10 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    
-    background: rgba(255,255,255, 0.1);
-    backdrop-filter: blur(8px);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.1), transparent);
+    backdrop-filter: blur(10px);
+    /* background: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(8px); */
     border-left: 2px solid #FC6D6D;
     animation: typing 3s steps(10) infinite;
   }
