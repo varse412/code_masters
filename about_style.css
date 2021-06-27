@@ -13,7 +13,7 @@
 .about .card{
     position: relative;
     width: 320px;
-    left: 30%;
+    left: 40%;
     height: 360px;
     margin: 20px;
     transform-style: preserve-3d;
@@ -46,7 +46,7 @@
     top: 0;
     left: 0;
     width: 320px;
-    height: 320px;
+    height: 550px;
     object-fit: cover;
 }
 
@@ -55,7 +55,7 @@
     top: 0;
     left: 0;
     width: 320px;
-    height: 320px;
+    height: 550px;
     background: #333;
     backface-visibility: hidden;
     display: flex;
