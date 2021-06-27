@@ -5,17 +5,23 @@
     min-height: 100vh;
     flex-wrap: wrap;
     transform-style: preserve-3d;
-    width: 1100px;
+    width: 66rem;
     
 }
 
+h1{
+    margin-left: 38%;
+    letter-spacing: 0.5rem;
+    margin-top: 1rem;
+    font-size: 4rem;
+}
 
 .about .card{
     position: relative;
-    width: 320px;
-    left: 40%;
+    width: 25rem;
+    left: 20%;
     height: 360px;
-    margin: 20px;
+    margin: 4rem;
     transform-style: preserve-3d;
     perspective: 1000px;
 }
@@ -43,18 +49,18 @@
 
 .about .card .box .imgBx img{
     position: absolute;
-    top: 0;
+    top: -8rem;
     left: 0;
-    width: 320px;
+    width: 25rem;
     height: 550px;
     object-fit: cover;
 }
 
 .about .card .box .contentBx{
     position: absolute;
-    top: 0;
+    top: -8rem;
     left: 0;
-    width: 320px;
+    width: 25rem;
     height: 550px;
     background: #333;
     backface-visibility: hidden;
