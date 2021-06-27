@@ -21,19 +21,39 @@ body{
   }
   @keyframes slider{
       0%{
-          background-color: orange;
+          background: url('bg/bg-1.jpg');
+          background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ background-position: center;
               }
               25%{
-          background-color: indigo;
+                background: url('bg/bg-8.jpg');
+                background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ background-position: center;
               }
               50%{
-          background-color: indianred;
+                background: url('bg/bg-3.jpg');
+                background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ background-position: center;
               }
               75%{
-          background-color: hotpink;
+                background: url('bg/bg-4.jpg');
+                background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ background-position: center;
               }
               100%{
-                background-color: greenyellow;
+                background: url('bg/nurse2.jpg');
+                background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ background-position: center;
               }
   }
   /* home end */
