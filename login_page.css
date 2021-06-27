@@ -181,10 +181,10 @@ section .color:nth-child(3)
 }
 .forget{
     margin-top: 5px;
-    color: #fff;
+    color: black;
 
 }
 .forget a{
-    color: #fff;
+    color: rgb(150, 148, 148);
     font-weight: 600;
 }
