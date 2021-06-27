@@ -99,7 +99,7 @@ ul li:nth-child(5):hover ~ #marker::before{
 
 @media (max-width: 1550px){
     .navbar{
-        left: -30%;
+        left: -19%;
     }
 }
 @media (max-width: 1200px){

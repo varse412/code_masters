@@ -338,6 +338,7 @@ ul{
 }
 
 .footer-col .social-links a{
+  text-decoration: none;
     display: inline-block;
     height: 40px;
     width: 40px;
