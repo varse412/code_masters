@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 40px 0;
+    padding: 8rem 0;
 }
 
 .process .box{
@@ -183,7 +183,7 @@
 #btn a{
     position: absolute;
     top: 0;
-    margin-top: 16.5rem;
+    margin-top: 18.5rem;
     left: 35px;
     width: 40%;
     height: 20%;
@@ -225,7 +225,7 @@
     content: '';
     position: absolute;
     left: 26%;
-    top: 310px;
+    top: 354px;
     transform: translate(-38%, -80%);
     bottom: -5px;
     width: 30px;
